@@ -50,7 +50,7 @@ int isValidAccountNum(unsigned int acctNum);
  * Main Program Entry Point
  * Displays menu and processes user choices for account management
  */
-int main(int argc, char *argv[])
+int main(int argc __attribute__((unused)), char *argv[] __attribute__((unused)))
 {
     FILE *cfPtr = NULL;  // credit.dat file pointer
     unsigned int choice; // user's menu choice
